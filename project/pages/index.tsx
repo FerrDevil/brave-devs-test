@@ -56,7 +56,6 @@ const Operators = () => {
   };
 
   const addOpModal = () => {
-    console.log(name, filePath, href)
     const newop = {
       name: name ? name : "Default",
       img: filePath ? filePath : "/default.png",
