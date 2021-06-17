@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import styled from "styled-components";
-import GlobalHead from "./_document";
+import GlobalHead from "./document";
 import Modal from "react-modal";
 import InputMask from "react-input-mask";
 
@@ -14,9 +14,9 @@ interface IOps {
 }
 
 const operatorsList: Array<IOps> = [
-  { name: "Мегафон", img: "/megafon.png", size: [350, 350], href: "megafon" },
-  { name: "МТС", img: "/mts.png", size: [350, 350], href: "MTC" },
-  { name: "Билайн", img: "/beeline.png", size: [350, 350], href: "beeline" },
+  { name: "Мегафон", img: "/megafon.png", size: [350, 350], href: "мегафон" },
+  { name: "МТС", img: "/mts.png", size: [350, 350], href: "МТС" },
+  { name: "Билайн", img: "/beeline.png", size: [350, 350], href: "билайн" },
 ];
 
 const Operators = () => {
