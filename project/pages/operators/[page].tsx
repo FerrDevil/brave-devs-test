@@ -152,7 +152,11 @@ const Error = styled.div`
   color: red;
   font-size: 12px;
 `;
-const StyledPopup = styled.div`
+interface IStyledPopup {
+  color?: string
+  height?: string
+}
+const StyledPopup = styled.div<IStyledPopup>`
   margin-top: 5%;
   width: 300px;
   height: ${(props) => props.height};
@@ -161,7 +165,11 @@ const StyledPopup = styled.div`
   color: white;
   border-radius: 15px;
 `;
-const StyledPopupText = styled.div`
+interface IStyledPopupText {
+  padding?: string
+  
+}
+const StyledPopupText = styled.div<IStyledPopupText>`
   font-size: 14px;
   text-align: center;
   padding: ${(props) => props.padding};
