@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Router, { useRouter } from "next/router";
 import styled from "styled-components";
 import InputMask from "react-input-mask";
-import GlobalHead from "../document";
+import GlobalHead from "../../public/document";
 
 const capitalize = (word: string) => word[0].toUpperCase() + word.substring(1);
 
