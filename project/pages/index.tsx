@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import styled from "styled-components";
-import GlobalHead from "./document";
+import GlobalHead from "../public/document";
 import Modal from "react-modal";
 import InputMask from "react-input-mask";
 
